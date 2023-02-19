@@ -1,0 +1,21 @@
+@import "../index.scss";
+
+.select-category-wrap {
+  text-align: left;
+  select.category-select {
+    padding: 10px 15px;
+    background: $header-color;
+    color: $white-color;
+    outline: none;
+    border: none;
+    font-size: 16px;
+  }
+  .category-select option {
+    background: $white-color;
+    color: $header-color;
+    padding: 5px 0;
+  }
+  .category-option[option]:disabled {
+    font-size: 14px;
+  }
+}

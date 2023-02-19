@@ -1,0 +1,17 @@
+@import "../styles/index.scss";
+
+.navigation {
+  a {
+    margin: 10px 25px;
+    color: $white-color;
+    text-decoration: none;
+    &:hover {
+      padding-bottom: 5px;
+      border-bottom: 1px solid $white-color;
+    }
+  }
+  .active {
+    padding-bottom: 5px;
+    border-bottom: 1px solid $white-color;
+  }
+}

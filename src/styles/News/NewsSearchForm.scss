@@ -1,0 +1,34 @@
+@import '../index.scss';
+
+.blog-form{
+    width: 100%;
+    form{
+        float: left;
+
+    }
+    .form-input{
+        padding: 8px 15px;
+        border: 1px solid $header-color;
+        border-right: 0px;
+        outline:none;
+        &:focus{
+            border: 2px solid $header-color;
+            border-right: 0px;
+        }
+    }
+.form-btn{
+    background: $header-color;
+    border: 1px solid $header-color;
+    padding: 8px 15px;
+    cursor: pointer;
+    &:hover{
+        background: $main-nav-bg-color;  
+        border: 1px solid $main-nav-bg-color;   
+     }
+    .svg-inline--fa{
+        color: $white-color;
+        font-size: 16px;
+        }
+    }
+    
+}

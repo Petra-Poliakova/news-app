@@ -1,0 +1,113 @@
+@import "../index.scss";
+
+.home-page-wrapper {
+  width: 97%;
+  min-height: 402px;
+  display: flex;
+  flex-direction: row;
+
+  h3 {
+    color: $white-color;
+  }
+
+  .left-banner {
+    width: 50%;
+    height: 402px;
+    border-right: 2px solid $white-color;
+    border-top: 5px solid $white-color;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .title-bg {
+      width: 100%;
+      height: 150px;
+      background: rgb(0, 0, 0);
+      background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.19961488013174022) 100%
+      );
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      h3 {
+        margin-top: 10%;
+      }
+    }
+  }
+  .right-banner {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .small-banner {
+      width: 49%;
+      height: 200px;
+      border-right: 2px solid $white-color;
+      border-left: 2px solid $white-color;
+      border-top: 4px solid $white-color;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .title-bg {
+        width: 100%;
+        height: 70px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 1) 0%,
+          rgba(0, 0, 0, 0.19961488013174022) 100%
+        );
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        h3 {
+          margin-top: 3%;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+.slogan {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+}
+@media (max-width: 1024px) {
+  .home-page-wrapper {
+    flex-wrap: wrap;
+    .left-banner {
+      width: 100%;
+      height: 200px;
+      .title-bg {
+        height: 70px;
+        h3 {
+          margin-top: 3%;
+          font-size: 14px;
+        }
+      }
+    }
+    .right-banner {
+      width: 100%;
+      .small-banner {
+        width: 24%;
+        .title-bg {
+          h3 {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

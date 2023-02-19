@@ -1,0 +1,64 @@
+$primary-color: #7d3c98;
+$warning-color: #ffd028;
+$danger-color: #eb3f27;
+$success-color: #75fa83;
+$white-color: #fdfdfd;
+$dark-color: #181717;
+
+
+.btn {
+cursor: pointer;
+   
+}
+.btn-primary-solid{
+    background: $primary-color;
+    color:$white-color;
+    border: none;
+}
+.btn-warning-solid{
+    background: $warning-color;
+    color:$dark-color;
+    border: none;
+}
+.btn-danger-solid{
+    background: $danger-color;
+    color:$white-color;
+    border: none;
+}
+.btn-success-solid{
+    background: $success-color;
+    color:$dark-color;
+    border: none;
+}
+.btn-primary-outline{
+    background: transparent;
+    color:$primary-color;
+    border: 2px solid $primary-color;
+}
+.btn-warning-outline{
+    background: transparent;
+    color:$warning-color;
+    border: 2px solid $warning-color;
+}
+.btn-danger-outline{
+    background: transparent;
+    color:$danger-color;
+    border: 2px solid $danger-color;
+}
+.btn-success-outline{
+    background: transparent;
+    color:$success-color;
+    border: 2px solid $danger-color;
+}
+.btn-large{
+    padding: 10px 50px;
+    font-size: 20px;
+}
+.btn-medium{
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.btn-small{
+    padding: 10px 20px;
+    font-size: 18px;
+}

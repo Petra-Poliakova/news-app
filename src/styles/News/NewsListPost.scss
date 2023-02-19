@@ -1,0 +1,30 @@
+@import "../index.scss";
+
+.blog-list-wrapper {
+  width: 100%;
+  margin-bottom: 50px;
+
+  .blog-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0 !important;
+    li {
+      width: 30%;
+      margin: 25px 0;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .blog-list-wrapper {
+    .blog-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      li {
+        width: 100%;
+      }
+    }
+  }
+}

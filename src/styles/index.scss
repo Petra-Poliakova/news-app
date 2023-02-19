@@ -1,0 +1,46 @@
+
+$main-nav-bg-color: #7d3c98; //primary500 - rename
+$header-color: #4a235a; //primary700 - rename
+$triad-color: #E0BB6E; //secondary - rename 
+
+$primary-color500: #7d3c98; //main-nav-bg-color
+$primary-color700: #4a235a; //header color
+$accent-main-color: #E0BB6E; //triad-color
+$accent-primary-color: #007E73;
+$accent-secondary-color:#006FB3;
+$white-color: #ffffff;
+$dark-color: #210030; 
+$light-color: #F3FAFF;
+$grey-color200: #eceef1;
+$grey-color300: #d9dde4;
+$grey-color800: #3E4756;
+
+body {
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  color: $primary-color700;
+}
+
+nav {
+  padding: 25px 0;
+  width: 100%;
+  background: $primary-color700;
+}
+
+ul li {
+    list-style: none;
+}

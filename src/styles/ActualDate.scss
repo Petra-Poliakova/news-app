@@ -1,0 +1,16 @@
+@import '../styles/index.scss';
+
+.actual-date{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 27px 0;
+    .date-item{
+        margin-right: 15px;
+    }
+    .fa-calendar-days{
+        margin-right: 5px;
+        color: $header-color;
+    }
+
+}
