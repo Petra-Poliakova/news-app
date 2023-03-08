@@ -3,7 +3,7 @@
 An application for browsing the latest news, which uses Fetch technology for data loading and allows users to filter articles by various categories using a select dropdown filter. One of the application's features is the ability to display more or less articles.
 
 ## Preview
-
+![news-app](https://user-images.githubusercontent.com/73229851/223714581-bed957d5-ba76-4331-8cfb-2657a86d7575.png)
 
 # Getting Started with Create React App
 
