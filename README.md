@@ -5,6 +5,16 @@ An application for browsing the latest news, which uses Fetch technology for dat
 ## Preview
 ![news-app](https://user-images.githubusercontent.com/73229851/223714581-bed957d5-ba76-4331-8cfb-2657a86d7575.png)
 
+## Features: 
+<ul>
+<li>Router</li>
+<li>Select categories</li>
+<li>Fetch and display data from API: <a href="https://inshorts.deta.dev/news?category=all">https://inshorts.deta.dev/news?category={category_name}</a></li>
+<li>Actual date</li>
+<li>Show more post</li>
+<li>Show less post</li>
+</ul>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
